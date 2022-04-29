@@ -15,7 +15,7 @@
             </p>
             <div class="mt-12">
               <a
-                href="https://wa.link/oi904e"
+                href="https://wa.link/ms0vzg"
                 target="_blank"
                 class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-emerald-500 active:bg-emerald-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
               >
@@ -24,9 +24,9 @@
               <a
                 href="#about"
                 class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                target="_blank"
+                
               >
-                About Us
+                Sobre Nosotros
               </a>
             </div>
           </div>
@@ -60,10 +60,10 @@
           ></polygon>
         </svg>
       </div>
-      <div class="container mx-auto" id="about">
+      <div class="container mx-auto" >
         <div class="flex flex-wrap items-center">
           <div
-            class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
+            class=" w-12/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
           >
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg blue"
@@ -88,7 +88,7 @@
                 <h4 class="text-xl font-bold text-white">
                   Lleva tu empresa a otro plano con nosotros
                 </h4>
-                <p class="text-md font-light mt-2 text-white">
+                <p id="about" class="text-md font-light mt-2 text-white">
                     Estamos certificados por ofimática en soporte y asesorías.
                     Actualizaciones de versión y capacitación a usuarios.
                     Desarrollo de reportes, implementación de nuevos módulos y específicos livianos para mejorar la herramienta.
@@ -202,7 +202,6 @@
               <i class="fa fa-angle-double-right ml-1 leading-relaxed"></i>
             </a>
           </div>
-
           <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
             <div
               class="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0"
@@ -213,6 +212,7 @@
                 class="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-80-px z-3"
               />             
               <img
+              v-if="resolutionDesktop>=1400"
                 alt="..."
                 :src="'https://www.ofima.mx/wp-content/uploads/2018/05/rp-enterprise-de-ofima-gestion-integral-en-tus-manos-2.jpg'"
                 class="w-full align-middle rounded-lg absolute shadow-lg max-w-400-px left-0-px -top-100-px z-2"
@@ -460,7 +460,7 @@
           class="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10"
         >
           <div class="w-full text-center lg:w-8/12">
-            <p class="text-4xl text-center">
+            <p class="text-4xl text-center" id="about">
               <span role="img" aria-label="love">
                 😍
               </span>
@@ -557,6 +557,11 @@ export default {
     IndexNavbar,
     FooterComponent,
   },
+  computed:{
+    resolutionDesktop(){      
+      return window.innerWidth;
+    }
+  }
   
 };
 </script>
