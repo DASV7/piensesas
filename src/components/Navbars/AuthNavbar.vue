@@ -45,7 +45,6 @@
   </nav>
 </template>
 <script>
-import PagesDropdown from "@/components/Dropdowns/PagesDropdown.vue";
 export default {
   data() {
     return {
@@ -56,9 +55,6 @@ export default {
     setNavbarOpen: function () {
       this.navbarOpen = !this.navbarOpen;
     },
-  },
-  components: {
-    PagesDropdown,
-  },
+  },  
 };
 </script>
