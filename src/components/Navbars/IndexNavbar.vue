@@ -5,10 +5,10 @@
     <div
       class="container px-4 mx-auto flex flex-wrap items-center justify-between"
     >
-      <img class="target__logo" src="../../assets/img/logo.jpg" alt="Piense Sas">
+      <img class="target__logo sm:w-1/2 " src="../../assets/img/logo.jpg" alt="Piense Sas">
     
       <div
-        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        class="w-full  mt-2  relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >        
           <p
             class="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase mr-5"            
@@ -16,7 +16,7 @@
             <img src="../../../public/logo.svg" alt="">
           </p>        
         <button
-          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          class="cursor-pointer lg:bottom-10 text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button"
           @click="setNavbarOpen"
         >
