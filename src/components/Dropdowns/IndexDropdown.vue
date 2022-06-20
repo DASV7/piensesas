@@ -15,38 +15,27 @@
         hidden: !dropdownPopoverShow,
         block: dropdownPopoverShow,
       }"
-    >
-      <span
-        class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+    >      
+      <router-link
+        to="/landing"
+        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
       >
-         Asesorias
-      </span>
+        Asesorias ERP OFIMA.
+      </router-link>
+      <div class="h-0 mx-1 my-1 border border-solid border-blueGray-100" />      
       <router-link
         to="/admin/dashboard"
         class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
       >
-        ERP OFIMA.
-      </router-link>
-      <div class="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
-      <span
-        class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-      >
-        Cagalogo de productos
-      </span>
+        Servidores e infraestructura
+      </router-link>            
+      <div class="h-0 mx-1 my-1 border border-solid border-blueGray-100" />      
       <router-link
-        to="/auth/login"
+        to="/admin/dashboard"
         class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
       >
-        Servidores
-      </router-link>
-      <router-link
-        to="/auth/register"
-        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-      >
-        impresoras
-      </router-link>
-      
-      
+        Desarrollo de software
+      </router-link>            
     </div>
   </div>
 </template>

@@ -64,7 +64,7 @@
             <input
               type="text"
               placeholder="Search"
-              class="border-0 px-3 py-2 h-12  border-solid border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
+              class="border-0 px-3 py-2 h-12 border-solid border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
             />
           </div>
         </form>
@@ -75,16 +75,26 @@
         <h6
           class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
         >
-        Menu
+          Menu
         </h6>
         <!-- Navigation -->
 
         <ul class="md:flex-col md:min-w-full flex flex-col list-none">
           <li class="items-center">
-            <router-link
-              to="/admin/dashboard"
-              v-slot="{ href, navigate, isActive }"
+            <a
+              @click="$router.push('/landing')"
+              class="text-xs uppercase py-3 font-bold block"
+              :class="'text-blueGray-700 hover:text-blueGray-500'"
             >
+              <i
+                class="fas fa-table mr-2 text-sm"
+                :class="'opacity-75 text-blueGray-300'"
+              ></i>
+              Ofima
+            </a>
+          </li>
+          <li class="items-center">
+            <router-link to="/admin/dashboard" v-slot="{ href, navigate, isActive }">
               <a
                 :href="href"
                 @click="navigate"
@@ -99,16 +109,14 @@
                   class="fas fa-tv mr-2 text-sm"
                   :class="[isActive ? 'opacity-75' : 'text-blueGray-300']"
                 ></i>
-                Computadores
+
+                Catálogo de productos
               </a>
             </router-link>
           </li>
 
           <li class="items-center">
-            <router-link
-              to="/admin/settings"
-              v-slot="{ href, navigate, isActive }"
-            >
+            <router-link to="/admin/settings" v-slot="{ href, navigate, isActive }">
               <a
                 :href="href"
                 @click="navigate"
@@ -123,24 +131,9 @@
                   class="fas fa-tools mr-2 text-sm"
                   :class="[isActive ? 'opacity-75' : 'text-blueGray-300']"
                 ></i>
-                Servidores
+                Software
               </a>
             </router-link>
-          </li>
-
-          <li class="items-center">           
-              <a               
-                @click="$router.push('/landing')"
-                class="text-xs uppercase py-3 font-bold block"
-                :class="'text-blueGray-700 hover:text-blueGray-500'"
-              >
-                <i
-                  class="fas fa-table mr-2 text-sm"
-                  :class="'opacity-75 text-blueGray-300'"
-                ></i>
-                Ofima
-              </a>
-           
           </li>
         </ul>
       </div>
