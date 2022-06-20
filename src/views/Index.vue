@@ -1,30 +1,38 @@
 <template>
   <div>
     <index-navbar />
-    <section
-      class="header relative pt-16 items-center flex h-screen max-h-860-px"
-    >
+    <section class="header relative pt-16 items-center flex h-screen max-h-860-px">
       <div class="container mx-auto items-center flex flex-wrap">
         <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
           <div class="pt-32 sm:pt-0">
             <h2 class="font-semibold text-2xl text-blueGray-600">
-              SOLUCIONES TECNOLOGICAS PIENCE-PCS.
+              Pience Soluciones Tecnológicas. S.A.S.
             </h2>
             <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-              En  PIENCE PCS permanentemente  trabajamos en la búsqueda de nuevas ideas e  innovadoras formas  de  cumplir con  el objetivo  principal  que tenemos  como  empresa: ¡ Facilitarle su Gestión !
+              Es el resultado de la experiencia de
+              numerosos años trabajando de la mano con el área de sistemas de nuestros
+              clientes, del asesoramiento continuo a todo tipo empresas a nivel nacional;
+              después de trabajar con proyectos de sistematización, en infraestructura y
+              manejo de la información, con las diversas herramientas que tenemos a
+              nuestro alcance para conocer las necesidades de nuestros clientes en cada
+              uno de sus procesos, así como el mejoramiento continuo del área de
+              tecnología, hemos aprendido a conocer las soluciones más adecuadas para
+              mantener en óptimo funcionamiento esta área que se ha convertido en un pilar
+              para la gerencia de toda empresa que requiere tomar decisiones oportunas y
+              manejar la información de forma segura. Es por esto que hoy ofrecemos
+              soluciones eficientes y a tiempo, con menores costos.
             </p>
             <div class="mt-12">
-              <a
+              <!-- <a
                 href="https://wa.link/ms0vzg"
                 target="_blank"
                 class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-emerald-500 active:bg-emerald-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
               >
                 Contactanos 
-              </a>
+              </a> -->
               <a
                 href="#about"
                 class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                
               >
                 Sobre Nosotros
               </a>
@@ -34,7 +42,7 @@
       </div>
 
       <img
-        class="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
+        class="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-8/12 max-h-860-px"
         src="../assets/img/pictureImg.svg"
         alt="..."
       />
@@ -43,7 +51,7 @@
     <section id="section-two" class="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
       <div
         class="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
-        style="transform: translateZ(0);"
+        style="transform: translateZ(0)"
       >
         <svg
           class="absolute bottom-0 overflow-hidden"
@@ -60,18 +68,16 @@
           ></polygon>
         </svg>
       </div>
-      <div class="container mx-auto" >
+      <div class="container mx-auto">
         <div class="flex flex-wrap items-center">
-          <div
-            class=" w-12/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
-          >
+          <div class="w-12/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg blue"
             >
               <img
                 alt="..."
                 src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
-                class="w-full  align-middle rounded-t-lg"
+                class="w-full align-middle rounded-t-lg"
               />
               <blockquote class="blue relative p-8 mb-4">
                 <svg
@@ -82,18 +88,25 @@
                 >
                   <polygon
                     points="-30,95 583,95 583,65"
-                    class="blue  fill-current"
+                    class="blue fill-current"
                   ></polygon>
                 </svg>
                 <h4 class="text-xl font-bold text-white">
                   Lleva tu empresa a otro plano con nosotros
                 </h4>
                 <p id="about" class="text-md font-light mt-2 text-white">
-                    Estamos certificados por ofimática en soporte y asesorías.
-                    Actualizaciones de versión y capacitación a usuarios.
-                    Desarrollo de reportes, implementación de nuevos módulos y específicos livianos para mejorar la herramienta.
-                    Implementación de F.E. y realización de formatos para Facturación, Notas Crédito y Notas Debito.
-
+                  es el resultado de la experiencia de numerosos años trabajando de la
+                  mano con el área de sistemas de nuestros clientes, del asesoramiento
+                  continuo a todo tipo empresas a nivel nacional; después de trabajar con
+                  proyectos de sistematización, en infraestructura y manejo de la
+                  información, con las diversas herramientas que tenemos a nuestro alcance
+                  para conocer las necesidades de nuestros clientes en cada uno de sus
+                  procesos, así como el mejoramiento continuo del ares de tecnología,
+                  hemos aprendido a conocer las soluciones más adecuadas para mantener en
+                  óptimo funcionamiento esta área que se ha convertido en un pilar para la
+                  gerencia de toda empresa que requiere tomar decisiones oportunas y
+                  manejar la información de forma segura. Es por esto que hoy ofrecemos
+                  soluciones eficientes y a tiempo, con menores costos.
                 </p>
               </blockquote>
             </div>
@@ -109,11 +122,9 @@
                     >
                       <i class="fas fa-sitemap"></i>
                     </div>
-                    <h6 class="text-xl mb-1 font-semibold">
-                      Notas debito
-                    </h6>
+                    <h6 class="text-xl mb-1 font-semibold">Notas debito</h6>
                     <p class="mb-4 text-blueGray-500">
-                      Implementacion y mejora en el sistema de notas debito 
+                      Implementacion y mejora en el sistema de notas debito
                     </p>
                   </div>
                 </div>
@@ -124,9 +135,7 @@
                     >
                       <i class="fas fa-drafting-compass"></i>
                     </div>
-                    <h6 class="text-xl mb-1 font-semibold">
-                      Notas  Credito  
-                    </h6>
+                    <h6 class="text-xl mb-1 font-semibold">Notas Credito</h6>
                     <p class="mb-4 text-blueGray-500">
                       Implementacion y mejora en el sistema de notas Credito
                     </p>
@@ -154,9 +163,7 @@
                     >
                       <i class="fas fa-file-alt"></i>
                     </div>
-                    <h6 class="text-xl mb-1 font-semibold">
-                      Reportes
-                    </h6>
+                    <h6 class="text-xl mb-1 font-semibold">Reportes</h6>
                     <p class="mb-4 text-blueGray-500">
                       Reportes de ventas, compras, inventario, etc.
                     </p>
@@ -176,22 +183,19 @@
             >
               <i class="fas fa-sitemap text-xl"></i>
             </div>
-            <h3 class="text-3xl mb-2 font-semibold leading-normal">
-              Experiencia
-            </h3>
-            <p
-              class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
-            >
-              Nuestra experiencia nos ha permitido llevar a cabo proyectos de
-              gran complejidad, con una gran cantidad de requerimientos.
+            <h3 class="text-3xl mb-2 font-semibold leading-normal">Experiencia</h3>
+            <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+              Nuestra experiencia nos ha permitido llevar a cabo proyectos de gran
+              complejidad, con una gran cantidad de requerimientos.
             </p>
             <div class="block pb-6">
               <span
-                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2"
-                v-for="(item,idx) in  cardsInformation" :key="idx"
+                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white last:mr-0 mr-2 mt-2"
+                v-for="(item, idx) in cardsInformation"
+                :key="idx"
               >
                 {{ item }}
-              </span>              
+              </span>
             </div>
             <a
               href=""
@@ -203,21 +207,19 @@
             </a>
           </div>
           <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
-            <div
-              class="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0"
-            >
+            <div class="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
               <img
                 alt="..."
                 src="https://admin.catalogodesoftware.com/UserFiles/cso_files/multimedia/imagenes/producto/Ofima_Nomina_y_Gesti%C3%B3n_Humana_Ofima__Colombia.jpg"
                 class="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-80-px z-3"
-              />             
+              />
               <img
-              v-if="resolutionDesktop>=1400"
+                v-if="resolutionDesktop >= 1400"
                 alt="..."
                 :src="'https://www.ofima.mx/wp-content/uploads/2018/05/rp-enterprise-de-ofima-gestion-integral-en-tus-manos-2.jpg'"
                 class="w-full align-middle rounded-lg absolute shadow-lg max-w-400-px left-0-px -top-100-px z-2"
               />
-               
+
               <!-- <img
                 alt="..."
                 :src="componentBtnPink"
@@ -237,14 +239,11 @@
               >
                 <i class="fas fa-file-alt text-xl"></i>
               </div>
-              <h3 class="text-3xl font-semibold">
-                Ofima Experience
-              </h3>
+              <h3 class="text-3xl font-semibold">Ofima Experience</h3>
               <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-                This extension comes a lot of fully coded examples that help you
-                get started faster. You can adjust the colors and also the
-                programming language. You can change the text and images and
-                you're good to go.
+                This extension comes a lot of fully coded examples that help you get
+                started faster. You can adjust the colors and also the programming
+                language. You can change the text and images and you're good to go.
               </p>
               <ul class="list-none mt-6">
                 <li class="py-2">
@@ -289,9 +288,7 @@
                       </span>
                     </div>
                     <div>
-                      <h4 class="text-blueGray-500">
-                        Dynamic Javascript Components
-                      </h4>
+                      <h4 class="text-blueGray-500">Dynamic Javascript Components</h4>
                     </div>
                   </div>
                 </li>
@@ -304,8 +301,8 @@
               alt="..."
               class="max-w-full rounded-lg shadow-xl"
               style="
-                transform: scale(1) perspective(1040px) rotateY(-11deg)
-                  rotateX(2deg) rotate(2deg);
+                transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg)
+                  rotate(2deg);
               "
               src="https://www.ofima.com/wp-content/uploads/2022/01/pantalla-dos.png"
             />
@@ -317,7 +314,8 @@
         <div class="w-full md:w-6/12 px-12 md:px-4">
           <h2 class="font-semibold text-4xl">Piense SAS</h2>
           <p class="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-           Asesorias contables y implementacion de mejoras en sistemas contables, En PIENSE SAS creamos un mundo de soluciones .
+            Asesorias contables y implementacion de mejoras en sistemas contables, En
+            PIENSE SAS creamos un mundo de soluciones .
           </p>
         </div>
       </div>
@@ -327,10 +325,8 @@
         <div class="justify-center flex flex-wrap">
           <div class="w-full lg:w-12/12 px-4 -mt-24">
             <div class="flex flex-wrap">
-               <div class="w-full lg:w-4/12 px-4">
-                <h5 class="text-xl font-semibold pb-4 text-center">
-                  Ofimatica
-                </h5>
+              <div class="w-full lg:w-4/12 px-4">
+                <h5 class="text-xl font-semibold pb-4 text-center">Ofimatica</h5>
                 <router-link to="/landing">
                   <div
                     class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
@@ -344,9 +340,7 @@
                 </router-link>
               </div>
               <div class="w-full lg:w-4/12 px-4">
-                <h5 class="text-xl font-semibold pb-4 text-center">
-                  Tecnologia
-                </h5>
+                <h5 class="text-xl font-semibold pb-4 text-center">Tecnologia</h5>
                 <router-link to="/auth/login">
                   <div
                     class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
@@ -361,9 +355,7 @@
               </div>
 
               <div class="w-full lg:w-4/12 px-4">
-                <h5 class="text-xl font-semibold pb-4 text-center">
-                  Servidores
-                </h5>
+                <h5 class="text-xl font-semibold pb-4 text-center">Servidores</h5>
                 <router-link to="/profile">
                   <div
                     class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
@@ -376,8 +368,6 @@
                   </div>
                 </router-link>
               </div>
-
-             
             </div>
           </div>
         </div>
@@ -396,9 +386,7 @@
             <h3 class="text-3xl mb-2 font-semibold leading-normal text-white">
               Nuestras garantias
             </h3>
-            <p
-              class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400"
-            >
+            <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
               Simplemente
               <a
                 href="https://tailwindcss.com/?ref=creativetim"
@@ -407,13 +395,13 @@
               >
                 Piense SAS
               </a>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam similique dignissimos placeat nobis repudiandae hic maiores accusamus rerum itaque voluptatum amet fugiat dicta inventore corporis sunt, molestiae excepturi cum alias?
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam similique
+              dignissimos placeat nobis repudiandae hic maiores accusamus rerum itaque
+              voluptatum amet fugiat dicta inventore corporis sunt, molestiae excepturi
+              cum alias?
             </p>
-            <p
-              class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400"
-            >
-              Get it free on Github and please help us spread the news with a
-              Star!
+            <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">
+              Get it free on Github and please help us spread the news with a Star!
             </p>
             <a
               href=""
@@ -426,7 +414,7 @@
 
           <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
             <img
-              class="fab fa-github text-blueGray-700 text-55 absolute mt-32 right-50  opacity-80"
+              class="fab fa-github text-blueGray-700 text-55 absolute mt-32 right-50 opacity-80"
               src="https://cdn-icons-png.flaticon.com/512/1875/1875501.png"
             />
           </div>
@@ -437,7 +425,7 @@
     <section class="pb-16 bg-blueGray-200 relative pt-32">
       <div
         class="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
-        style="transform: translateZ(0);"
+        style="transform: translateZ(0)"
       >
         <svg
           class="absolute bottom-0 overflow-hidden"
@@ -461,18 +449,14 @@
         >
           <div class="w-full text-center lg:w-8/12">
             <p class="text-4xl text-center" id="about">
-              <span role="img" aria-label="love">
-                😍
-              </span>
+              <span role="img" aria-label="love"> 😍 </span>
             </p>
-            <h3 class="font-semibold text-3xl">
-              ¿Quieres saber mas de nosotros?
-            </h3>
+            <h3 class="font-semibold text-3xl">¿Quieres saber mas de nosotros?</h3>
             <p class="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              similique dignissimos placeat nobis repudiandae hic maiores
-              accusamus rerum itaque voluptatum amet fugiat dicta inventore
-              corporis sunt, molestiae excepturi cum alias?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam similique
+              dignissimos placeat nobis repudiandae hic maiores accusamus rerum itaque
+              voluptatum amet fugiat dicta inventore corporis sunt, molestiae excepturi
+              cum alias?
             </p>
             <div class="sm:block flex flex-col mt-10">
               <a
@@ -516,29 +500,27 @@ import profile from "@/assets/img/profile.jpg";
 import landing from "@/assets/img/landing.jpg";
 
 export default {
-    metaInfo() {
+  metaInfo() {
     return {
       title: "test meta data with vue",
       meta: [
         {
           vmid: "description",
           name: "description",
-          content:
-            "hello world, this is an example of adding a description with vueMeta",
+          content: "hello world, this is an example of adding a description with vueMeta",
         },
       ],
     };
   },
   data() {
     return {
-      cardsInformation:[
+      cardsInformation: [
         "facturaciòn",
         "Notas",
         "Sql server",
         "Soporte",
-        "Tecnología",        
-        "erp Ofimatica"
-        
+        "Tecnología",
+        "erp Ofimatica",
       ],
       patternVue,
       componentBtn,
@@ -557,23 +539,21 @@ export default {
     IndexNavbar,
     FooterComponent,
   },
-  computed:{
-    resolutionDesktop(){      
+  computed: {
+    resolutionDesktop() {
       return window.innerWidth;
-    }
-  }
-  
+    },
+  },
 };
 </script>
 <style>
 .get-started {
-  background-color: #0466C8;
+  background-color: #004497;
 }
-.blue{
-background-color: #0466C8;    
+.blue {
+  background-color: #004497;
 }
-#section-two{
-    margin-top: 300px;
-}	
-
+#section-two {
+  margin-top: 300px;
+}
 </style>
